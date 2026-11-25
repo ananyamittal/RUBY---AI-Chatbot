@@ -1,4 +1,5 @@
 # RUBY---AI-Chatbot
+A Q&A chatbot built with Google Gemini and Streamlit.
 
 ## Contents
 - 1_QnA_Bot.py: Q&A chatbot using Gemini and Streamlit
@@ -23,6 +24,5 @@ The app opens in your browser at http://localhost:8501
 ## What I learned
 - Knowledge cutoff: models can't answer about events after their
   training data
-- Prompt templates make prompts reusable
-- Prompts, models, and parsers are runnables, so they can be
-  chained with |
+- How to call the Gemini API from Python and handle the response
+- Building a chat UI with Streamlit
